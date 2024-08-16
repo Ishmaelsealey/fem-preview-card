@@ -1,0 +1,37 @@
+$primaryCyan: hsl(158, 36%, 37%);
+$primaryCream: hsl(30, 38%, 92%);
+$neutral1: hsl(212, 21%, 14%);
+$neutral2: hsl(228, 12%, 48%);
+$white: hsl(0,0%, 100%);
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $primaryCream;
+	font-family: Montserrat, sans-serif;
+	min-height: 100vh;
+}
+
+.container {
+	background-color: $white;
+	border-radius: 15px;
+	position: absolute;
+	max-width: 90vw;
+}
+
+h1 {
+	font-family: Fraunces;
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+.product-img {
+	width: max-content;
+}
