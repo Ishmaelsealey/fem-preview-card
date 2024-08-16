@@ -83,4 +83,10 @@ h1 {
   gap: 0.5em;
 }
 
+.cart:hover {
+  cursor: pointer;
+  transition: background-color ease 100ms;
+  background-color: hsl(158deg, 36%, 15%);
+}
+
 /*# sourceMappingURL=styles.css.map */
